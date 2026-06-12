@@ -1,0 +1,120 @@
+body{
+    background: linear-gradient(45deg ,#8fc0ebfd , white);
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.7rem;
+    border-radius: 2rem;
+    border: 1px solid black;
+    transition: 1s ease;
+
+}
+.choice-container:hover{
+     
+     transform: translateY(-0.2rem) scale(1.01) ;
+}
+.choice-letter{
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: white;
+    border-radius: 2rem;
+}
+.choice-text{
+    padding: 1.5rem;
+    width: 100%;
+}
+
+h2{
+    display: flex;
+    font-size: 3.2rem;
+    margin-bottom: 2em;
+    justify-self: center;
+    text-align: center;
+}
+
+.turn-home{
+    position: absolute;
+    color: #005eb0;
+    font-size: 5rem;
+    top: 3rem;
+    left: 4rem;
+}
+
+.correct{
+    border: 1.5px solid green;
+    box-shadow: 0 0 30px rgb(0, 128, 0,0.5)
+}
+.incorrect{
+    border: 2px solid red;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.5)
+}
+
+#hub{
+    display: flex;
+    justify-content: space-between;
+}
+#hub_item{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.hub_main_text{
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 3rem;
+    margin-top: 1.6rem;
+    border-radius: 20px;
+    border: 0.2rem solid #015aa8;
+    
+}
+#progressBarfull{
+    height: 2.6rem;
+    background:linear-gradient(90deg ,#092aff,#19b2ff );
+    width: 0%;
+    border-radius: 20px;
+
+}
+
+#load{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#load div{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(45deg, #9c00b8,#002aff);
+    border-radius: 50%;
+    margin: 0 10px;
+    animation: up_down 0.9s alternate infinite;
+}
+#load[hidden]{
+    display: none;
+}
+#load .two{
+    animation-delay: 0.3s;
+}
+#load .three{
+    animation-delay: 0.6s;
+}
+@keyframes up_down {
+    to{
+        opacity: 0.2;
+        transform: translateY(-25px);
+    }
+}
+
+#advice{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3rem;
+    position: absolute;
+    left: 28%;
+    top: 85%;
+    width: 100%;
+    color: rgba(255, 0, 0, 0.85);
+}
