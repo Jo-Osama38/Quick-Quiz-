@@ -14,7 +14,7 @@ link :
 
 ## link game 
 
-link :
+link :  https://jo-osama38.github.io/Quick-Quiz-/
 
 
 
@@ -35,3 +35,5 @@ link :
 
 
 ### لينك لتجربه اللعبه
+
+ https://jo-osama38.github.io/Quick-Quiz-/
