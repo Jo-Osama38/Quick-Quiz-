@@ -9,7 +9,7 @@ I learned many new basic concepts in JavaScript and improved my skills in using 
 
 ### link video 
 
-link :
+link : https://youtu.be/95c33ihDQCA?si=t10mqzt9Ible4lIK
 
 
 ## link game 
@@ -32,8 +32,8 @@ link :  https://jo-osama38.github.io/Quick-Quiz-/
 
 ### لينك فيديو للمشروع
 
-
+ لينك : https://youtu.be/95c33ihDQCA?si=t10mqzt9Ible4lIK 
 
 ### لينك لتجربه اللعبه
 
- https://jo-osama38.github.io/Quick-Quiz-/
+ لينك : https://jo-osama38.github.io/Quick-Quiz-/ 
